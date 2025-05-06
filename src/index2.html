@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Yoga Website2</title>
+</head>
+<body>
+  <nav class="flex items-center justify-between p-4 bg-transparent relative">
+    <div class="flex items-center space-x-3">
+      <img src="../assets/logoleaf.png" alt="Logo" class="w-10 h-10">
+      <h1 class="text-2xl font-bold">Yoga Era</h1>
+    </div>
+  
+    <!-- Hamburger Button -->
+    <button id="menu-btn" class="block md:hidden text-black focus:outline-none">
+      <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  
+    <!-- Menu -->
+    <div id="menu"
+      class="hidden md:flex flex-col md:flex-row md:items-center absolute md:static top-16 left-0 w-full md:w-auto bg-[#685D4F] md:bg-transparent text-white md:text-black px-4 md:px-0 py-4 md:py-0 z-50">
+      <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 w-full md:w-auto mx-5">
+        <li><a href="#" class="hover:text-[#fff]">Home</a></li>
+        <li><a href="#" class="hover:text-[#fff]">Classes</a></li>
+        <li><a href="#" class="hover:text-[#fff]">About</a></li>
+        <li><a href="#" class="hover:text-[#fff]">Testimonial</a></li>
+        <li><a href="#" class="hover:text-[#fff]">Contact</a></li>
+      </ul>
+      <button
+        class="bg-[#685D4F] md:bg-[#685D4F] text-white text-xs px-4 py-2 mt-4 md:mt-0 rounded-2xl font-semibold ml-auto mx-5">
+        Sign Up
+      </button>
+    </div>
+  </nav>
+
+  <div class="flex flex-col lg:flex-row justify-between mt-5 px-6">
+    <!-- Left Section -->
+    <div class="text-center lg:text-left lg:pl-15 flex-1">
+      <h1 class="text-3xl font-bold mb-10">Why Choose our Yoga Classes</h1>
+  
+      <div class="grid grid-cols-2 gap-10 sm:grid-cols-2">
+        <!-- Card 1 -->
+        <div class="flex flex-col items-center">
+          <img src="../assets/Instructor.png" alt="">
+          <p class="mt-2">Experienced Instructor</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="flex flex-col items-center">
+          <img src="../assets/ClassSchedule.png" alt="">
+          <p class="mt-2">Flexible Class Schedule</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="flex flex-col items-center">
+          <img src="../assets/YogaPose.png" alt="">
+          <p class="mt-2">Yoga For All Classes</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="flex flex-col items-center">
+          <img src="../assets/OnlineClass.png" alt="">
+          <p class="mt-2 text-xs">Online & On-Demand Classes</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Right Section (Image) -->
+    <div class="mt-10 lg:mt-0 flex justify-center lg:justify-end flex-1">
+      <img src="../assets/Yoga3.png" alt="">
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-20 px-6">
+    <!-- Card 1 -->
+    <div class="text-center">
+      <img src="../assets/yoga4.png" alt="">
+      <p class="font-semibold">Yoga</p>
+      <p class="mb-5">
+        Slow down, breathe deep. <br>
+        This gentle, traditional practice is <br>
+        perfect for beginners or anyone seeking <br>
+        balance and calm.
+      </p>
+      <div class="flex flex-wrap justify-center gap-2">
+        <a href="#" class="bg-brown px-5 py-1 rounded-2xl text-white">All</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Beginner</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Intermediate</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Advanced</a>
+      </div>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="text-center">
+      <img src="../assets/pose5.png" alt="">
+      <p class="font-semibold">Power Yoga</p>
+      <p class="mb-5">
+        Flow hard. Feel Strong. <br>
+        This high energy class blends strength, <br>
+        balance into an uplifting workout.
+      </p>
+      <div class="flex flex-wrap justify-center gap-2">
+        <a href="#" class="bg-brown px-5 py-1 rounded-2xl text-white">All</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Beginner</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Intermediate</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Advanced</a>
+      </div>
+    </div>
+  
+    <!-- Card 3 -->
+    <div class="text-center">
+      <img src="../assets/yoga6.png" alt="">
+      <p class="font-semibold">Meditation</p>
+      <p class="mb-5">
+        Slow down, breathe deep. <br>
+        This gentle, traditional practice is <br>
+        perfect for beginners or anyone seeking <br>
+        balance and calm.
+      </p>
+      <div class="flex flex-wrap justify-center gap-2">
+        <a href="#" class="bg-brown px-5 py-1 rounded-2xl text-white">All</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Beginner</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Intermediate</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Advanced</a>
+      </div>
+    </div>
+  
+    <!-- Card 4 -->
+    <div class="text-center">
+      <img src="../assets/yugo7.png" alt="">
+      <p class="font-semibold">Vinyasa Flow</p>
+      <p class="mb-5">
+        Move with your breath. <br>
+        A dynamic and creative style that links <br>
+        movement with breath. Vinyasa Flow <br>
+        energizes the body and quiet the mind.
+      </p>
+      <div class="flex flex-wrap justify-center gap-2">
+        <a href="#" class="bg-brown px-5 py-1 rounded-2xl text-white">All</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Beginner</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Intermediate</a>
+        <a href="#" class="border-2 border-brown px-3 rounded-2xl">Advanced</a>
+      </div>
+    </div>
+  </div>
+
+<!--Testimonial -->
+
+  <div class="grid gap-10 px-6 mt-10 lg:flex lg:justify-between">
+    <!-- Testimonial 1 -->
+    <div class="flex flex-col items-start">
+      <img src="../assets/yoga8.png" alt="Grace Ben">
+      <div class="my-5 bg-brown-2 rounded px-6 py-6 text-left">
+        <h6 class="font-semibold">
+          Grace Ben <br>
+          <span class="font-normal text-sm">Tech Consultant</span>
+        </h6>
+        <p class="mt-4 text-sm italic">
+          “Stronger, calmer, more present”<br>
+          I never thought I’d enjoy yoga this much. The Power Yoga flows are challenging but energizing, and I’ve seen a
+          huge
+          difference in my strength and focus.
+        </p>
+      </div>
+    </div>
+  
+    <!-- Testimonial 2 -->
+    <div class="flex flex-col items-start">
+      <img src="../assets/yoga9.png" alt="Anita Brown">
+      <div class="my-5 bg-brown-3 rounded px-6 py-6 text-left">
+        <h6 class="font-semibold">
+          Anita Brown <br>
+          <span class="font-normal text-sm">Graphic Designer</span>
+        </h6>
+        <p class="mt-4 text-sm italic">
+          “Exactly what I needed.”<br>
+          I started with Hatha classes to slow down after long workdays, and now I practice almost every morning. Yoga Era
+          helped
+          me reconnect with my breath and body — it’s been life-changing.
+        </p>
+      </div>
+    </div>
+  
+    <!-- Testimonial 3 -->
+    <div class="flex flex-col items-start">
+      <img src="../assets/yoga10.png" alt="Melissa Sam">
+      <div class="my-5 bg-brown-4 rounded px-6 py-6 text-left">
+        <h6 class="font-semibold">
+          Melissa Sam <br>
+          <span class="font-normal text-sm">Freelance Writer</span>
+        </h6>
+        <p class="mt-4 text-sm italic">
+          “I travel often, and Yoga Era makes it easy to stay centered no matter where I am. The instructors are so
+          grounding, and
+          the classes flow beautifully.”
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <div class="py-10 bg-brown-5 text-sm">
+    <!-- Top Section -->
+    <div class="grid gap-10 px-6 lg:flex lg:justify-between lg:px-20">
+      <!-- Logo & Navigation -->
+      <div class="flex flex-col items-start">
+        <img src="../assets/Smalllogo.png" alt="Yoga Era Logo" class="mb-4">
+        <div class="flex flex-wrap gap-4">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Classes</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+  
+      <!-- Resources -->
+      <div>
+        <p class="font-semibold mb-4">Resources</p>
+        <ul class="space-y-2">
+          <li><a href="#">Wellness Tips</a></li>
+          <li><a href="#">Yoga Dictionary</a></li>
+          <li><a href="#">Meditation Techniques</a></li>
+        </ul>
+      </div>
+  
+      <!-- Support -->
+      <div>
+        <p class="font-semibold mb-4">Support</p>
+        <ul class="space-y-2">
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Testimonials</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Bottom Section -->
+    <div
+      class="mt-10 border-t border-white pt-6 px-6 flex flex-col items-center gap-4 text-center lg:flex-row lg:justify-between lg:px-20">
+      <p>&copy; 2025, All rights reserved</p>
+      <p><a href="#" class="underline">Terms & Conditions</a></p>
+    </div>
+  </div>
+
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
